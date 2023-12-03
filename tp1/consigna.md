@@ -15,8 +15,8 @@ constructor de la clase. Una vez que se le asigne un ID del Empleado, este no
 podrá ser modificado, por lo que el ID debe ser una variable constante (usar 
 final para crear la constante)
 ```java
-Ejemplo: A continuación, creamos un empleado y como verán no asignamos 
-su ID, este ID se deberá crear de manera interna a través del constructor.
+// Ejemplo: A continuación, creamos un empleado y como verán no asignamos 
+// su ID, este ID se deberá crear de manera interna a través del constructor.
 Empleado x = new Empleado();
 x.setNombre(“Jose”);
 x.setEdad(30);
