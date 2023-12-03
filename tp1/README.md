@@ -1,4 +1,5 @@
-# EJERCICIO 1:
+# TP N° 1
+## EJERCICIO 1:
 1. Todas las clases pertenecientes a este ejercicio se crearán dentro del 
 paquete llamado Ejercicio1
 2. Crear una clase Empleado con las siguientes propiedades:
