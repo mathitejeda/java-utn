@@ -1,4 +1,5 @@
-# EJERCICIO 1:
+# TP N° 1
+## EJERCICIO 1:
 1. Todas las clases pertenecientes a este ejercicio se crearán dentro del 
 paquete llamado Ejercicio1
 2. Crear una clase Empleado con las siguientes propiedades:
@@ -15,8 +16,8 @@ constructor de la clase. Una vez que se le asigne un ID del Empleado, este no
 podrá ser modificado, por lo que el ID debe ser una variable constante (usar 
 final para crear la constante)
 ```java
-Ejemplo: A continuación, creamos un empleado y como verán no asignamos 
-su ID, este ID se deberá crear de manera interna a través del constructor.
+// Ejemplo: A continuación, creamos un empleado y como verán no asignamos 
+// su ID, este ID se deberá crear de manera interna a través del constructor.
 Empleado x = new Empleado();
 x.setNombre(“Jose”);
 x.setEdad(30);
@@ -29,8 +30,8 @@ System.out.println(x.toString());
 - El segundo constructor recibirá como parámetros: el nombre y la edad, para 
 ser asignados.
 6. Crear un método estático que devuelva el próximo ID a ser generado: `int
-devuelveProximoID()'. Por ejemplo, si el último ID fue el número 1444, el
-método devolverá el siguiente cartel `El próximo ID será el 1445'.
+devuelveProximoID()`. Por ejemplo, si el último ID fue el número 1444, el
+método devolverá el siguiente cartel `El próximo ID será el 1445`.
 7. Realizar el método toString() dentro de la clase Empleado.
 8. Crear una clase llamada principal y dentro de ésta crear el main:
 En el main se deberán crear 5 empleados y mostrar su información 
